@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: #9A91A5;
+    background-color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    .menu {
+      display: block;
+      width: 250px;
+      margin-top: 50px;
+      overflow: hidden;
+    .menu-header {
+      line-height: 40px;
+      border-radius: 3px;
+      background-color: white;
+      color: #9A91A5;
+      cursor: pointer;
+      padding-left: 16px;
+      .fa-bars {
+        margin-right: 13px;
+      }
+      .fa-angle-down {
+        margin-left: 84px;
+        font-size: 18px;
+      }
+    }
+    .menu-list {
+      list-style-type: none;
+      padding: 0;
+      display: none;
+      margin-top: 20px;
+      position: relative;
+      background-color: #3FA6FD;
+      li {
+        cursor: pointer;
+        display: flex;
+        height: 40px;
+        &:nth-child(2) {
+          border-top: 1px solid rgb(209, 209, 209);
+        }
+        &:nth-child(3) {
+          border-top: 1px solid rgb(209, 209, 209);
+        }
+        a {
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          height: 40px;
+          width: 100%;
+          background-color: white;
+          position: absolute;
+          padding-left: 15px;
+          color: #9A91A5;
+          .figure {
+            height: 15px;
+            width: 15px;
+            position: absolute;
+            background-color: inherit;
+            top: -7.5px;
+            right: 26px;
+            transform: rotate(45deg);
+          }
+          &:hover {
+            left: 4px;
+            padding-left: 11px;
+            background-color: #F5F5F5;
+            color: black;
+          }
+          i {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+  .anim-down {
+    transform: rotate(-180deg);
+    transition: .2s;
+  }
+  .anim-up {
+    transform: rotate(0deg);
+    transition: .2s;
+  }
+}

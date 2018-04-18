@@ -1,0 +1,37 @@
+.AddUser {
+    padding: 40px 0;
+}
+p {
+    display: inline-block;
+    font-weight: bold;
+    line-height: 30px;
+    margin-right: 20px;
+}
+input {
+    padding: 10px 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.submit {
+    width: 80px;
+    background-color: #389e24;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 1px solid green;
+}
+.submit:hover {
+    background-color: #41b929;
+}
+.no-spinners {
+    -moz-appearance:textfield;
+  }
+.no-spinners::-webkit-outer-spin-button,
+.no-spinners::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

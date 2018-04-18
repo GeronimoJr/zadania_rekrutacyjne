@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+body { margin: 0; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; color: #9A91A5; background-color: black; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; }
+
+body .menu { display: block; width: 250px; margin-top: 50px; overflow: hidden; }
+
+body .menu .menu-header { line-height: 40px; border-radius: 3px; background-color: white; color: #9A91A5; cursor: pointer; padding-left: 16px; }
+
+body .menu .menu-header .fa-bars { margin-right: 13px; }
+
+body .menu .menu-header .fa-angle-down { margin-left: 84px; font-size: 18px; }
+
+body .menu .menu-list { list-style-type: none; padding: 0; display: none; margin-top: 20px; position: relative; background-color: #3FA6FD; }
+
+body .menu .menu-list li { cursor: pointer; display: -ms-flexbox; display: flex; height: 40px; }
+
+body .menu .menu-list li:nth-child(2) { border-top: 1px solid #d1d1d1; }
+
+body .menu .menu-list li:nth-child(3) { border-top: 1px solid #d1d1d1; }
+
+body .menu .menu-list li a { text-decoration: none; display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; height: 40px; width: 100%; background-color: white; position: absolute; padding-left: 15px; color: #9A91A5; }
+
+body .menu .menu-list li a .figure { height: 15px; width: 15px; position: absolute; background-color: inherit; top: -7.5px; right: 26px; transform: rotate(45deg); }
+
+body .menu .menu-list li a:hover { left: 4px; padding-left: 11px; background-color: #F5F5F5; color: black; }
+
+body .menu .menu-list li a i { margin-right: 10px; }
+
+body .anim-down { transform: rotate(-180deg); transition: .2s; }
+
+body .anim-up { transform: rotate(0deg); transition: .2s; }
